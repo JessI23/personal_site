@@ -24,4 +24,11 @@ footer {
   position: fixed;
   bottom: 0; }
 
+footer a {
+  float: right;
+  width: 100px;
+  height: 100%;
+  padding-top: 17px;
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

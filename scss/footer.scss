@@ -5,3 +5,11 @@ footer {
   position: fixed;
   bottom: 0;
 }
+
+footer a {
+  float: right;
+  width: 100px;
+  height: 100%;
+  padding-top: ($footer_height - 16px) / 2; //vertically center links
+  text-align: center;
+}
