@@ -9,4 +9,11 @@ nav {
   position: fixed;
   top: 0; }
 
+nav a {
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  padding-top: 17px; }
+
 /*# sourceMappingURL=style.css.map */
