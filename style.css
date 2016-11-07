@@ -21,6 +21,9 @@ nav a {
   text-align: center;
   padding-top: 17px; }
 
+body {
+  margin: 0; }
+
 footer {
   background-color: #2a2b2e;
   height: 50px;
