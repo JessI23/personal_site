@@ -24,6 +24,10 @@ nav a {
 body {
   margin: 0; }
 
+main {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
 footer {
   background-color: #2a2b2e;
   height: 50px;
