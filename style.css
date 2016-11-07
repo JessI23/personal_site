@@ -28,6 +28,13 @@ main {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+#site_intro {
+  width: 315px;
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  margin-top: -73px; }
+
 footer {
   background-color: #2a2b2e;
   height: 50px;

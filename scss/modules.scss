@@ -6,3 +6,11 @@ main {
   padding-top: $nav_height;
   padding-bottom: $footer_height;
 }
+
+#site_intro {
+  width: 315px;
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  margin-top: -73px; //size of box / 2
+}
