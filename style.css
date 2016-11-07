@@ -1,11 +1,15 @@
 /*-----navbar variables-----*/
-/*-----navbar variables-----*/
+/*-----footer variables-----*/
 * {
   box-sizing: border-box; }
 
 a {
   color: #ffffff;
   text-decoration: none; }
+
+h1,
+p {
+  color: #2a2b2e; }
 
 nav {
   background-color: #2a2b2e;
