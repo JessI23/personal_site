@@ -1,11 +1,18 @@
 /*-----navbar variables-----*/
-/*-----navbar variables-----*/
+/*-----footer variables-----*/
 * {
   box-sizing: border-box; }
 
 a {
   color: #ffffff;
   text-decoration: none; }
+
+h1,
+p {
+  color: #2a2b2e; }
+
+#site_title h1 {
+  font-size: 50px; }
 
 nav {
   background-color: #2a2b2e;
@@ -20,6 +27,34 @@ nav a {
   height: 100%;
   text-align: center;
   padding-top: 17px; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  margin: 0; }
+
+main {
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("assets/images/bg_blue.jpg"); }
+
+main::before {
+  content: url("assets/images/cherry_tree.png") ""; }
+
+#site_title {
+  width: 295px;
+  margin: auto;
+  padding-top: 50px; }
+
+#site_intro {
+  width: 315px;
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  margin-top: -73px; }
 
 footer {
   background-color: #2a2b2e;

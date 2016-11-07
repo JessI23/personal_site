@@ -2,3 +2,12 @@ a {
   color: $white;
   text-decoration: none;
 }
+
+h1,
+p {
+  color: $dark_gray;
+}
+
+#site_title h1 {
+  font-size: 50px;
+}

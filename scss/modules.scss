@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  height: 100%;
+  padding-top: $nav_height;
+  padding-bottom: $footer_height;
+  background-image: url("assets/images/bg_blue.jpg");
+}
+
+main::before {
+  content: url("assets/images/cherry_tree.png") '';
+}
+
+#site_title {
+  width: 295px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#site_intro {
+  width: 315px;
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  margin-top: -73px; //size of box / 2
+}
