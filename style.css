@@ -28,10 +28,15 @@ nav a {
   text-align: center;
   padding-top: 17px; }
 
+html {
+  height: 100%; }
+
 body {
+  height: 100%;
   margin: 0; }
 
 main {
+  height: 100%;
   padding-top: 50px;
   padding-bottom: 50px; }
 
