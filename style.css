@@ -38,7 +38,11 @@ body {
 main {
   height: 100%;
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background-image: url("assets/images/bg_blue.jpg"); }
+
+main::before {
+  content: url("assets/images/cherry_tree.png") ""; }
 
 #site_title {
   width: 295px;

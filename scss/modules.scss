@@ -11,6 +11,11 @@ main {
   height: 100%;
   padding-top: $nav_height;
   padding-bottom: $footer_height;
+  background-image: url("assets/images/bg_blue.jpg");
+}
+
+main::before {
+  content: url("assets/images/cherry_tree.png") '';
 }
 
 #site_title {
